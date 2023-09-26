@@ -73,11 +73,12 @@ class _MyLoginState extends State<MyLogin> {
                       ],
                     ),
                     SizedBox(
-                      height: 35,
+                      height: 10,
                     ),
                     Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
+                        Text("Create new account here?"),
                         TextButton(
                         onPressed: () {
                           Navigator.pushNamed(context,'register');
@@ -88,18 +89,17 @@ class _MyLoginState extends State<MyLogin> {
                               fontSize: 15,
                               color: Colors.black,
                             ),)),
-                        SizedBox(width: 20,),
-                        TextButton(onPressed: () {
-                          Navigator.pushNamed(context, 'forget');
-                        },
-                            child: Text('Forget Passsword',
-                              style: TextStyle(
-                                decoration: TextDecoration.underline,
-                                fontSize: 15,
-                                color: Colors.black,
-                              ),))
                       ],
                     ),
+                    TextButton(onPressed: () {
+                      Navigator.pushNamed(context, 'forget');
+                    },
+                        child: Text('Forget Passsword',
+                          style: TextStyle(
+                            decoration: TextDecoration.underline,
+                            fontSize: 15,
+                            color: Colors.black,
+                          ),))
                       ],
                     )
 

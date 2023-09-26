@@ -164,11 +164,12 @@ class _MyLogoutState extends State<MyLogout> {
                         ],
                       ),
                       SizedBox(
-                        height: 25,
+                        height: 10,
                       ),
                       Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
+                          Text("If You have Already Account?"),
                           TextButton(onPressed: () {
                             Navigator.pushNamed(context, 'login');
                           },
@@ -178,15 +179,15 @@ class _MyLogoutState extends State<MyLogout> {
                                   fontSize: 15,
                                   color: Colors.black,
                                 ),)),
-                          TextButton(onPressed: () {
-                            Navigator.pushNamed(context, 'forget');
-                          },
-                              child: Text('Forget Passsword',
-                                style: TextStyle(
-                                  decoration: TextDecoration.underline,
-                                  fontSize: 15,
-                                  color: Colors.black,
-                                ),))
+                          // TextButton(onPressed: () {
+                          //   Navigator.pushNamed(context, 'forget');
+                          // },
+                          //     child: Text('Forget Passsword',
+                          //       style: TextStyle(
+                          //         decoration: TextDecoration.underline,
+                          //         fontSize: 15,
+                          //         color: Colors.black,
+                          //       ),))
                         ],
                       ),
                     ],

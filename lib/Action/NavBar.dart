@@ -26,15 +26,21 @@ class NavBar extends StatelessWidget {
               onTap: () => print("Setting Your Profile"),
             ),
 
-            // ListTile(
-            //   leading: Icon(Icons.checklist_outlined),
-            //   title: Text('Check Order'),
-            //   onTap: () => print("Setting Your Profile"),
-            // ),
+            ListTile(
+              leading: Icon(Icons.location_on_outlined),
+              title: Text('Manage Address'),
+              onTap: () => print("Setting Your Profile"),
+            ),
 
             ListTile(
-              leading: Icon(Icons.favorite),
-              title: Text('Check Favorite'),
+              leading: Icon(Icons.add_location_alt_outlined),
+              title: Text('My Order'),
+              onTap: () => print("Check Your Payment Method"),
+            ),
+
+            ListTile(
+              leading: Icon(Icons.favorite_border),
+              title: Text('My Favorite'),
               onTap: () => print("Check Favorite"),
             ),
 
@@ -43,18 +49,6 @@ class NavBar extends StatelessWidget {
               title: Text('Order History'),
               onTap: () => print("Your Previous Order History"),
             ),
-
-            ListTile(
-              leading: Icon(Icons.payments_outlined),
-              title: Text('Payment Methods'),
-              onTap: () => print("Check Your Payment Method"),
-            ),
-
-            // ListTile(
-            //   leading: Icon(Icons.add_to_photos_rounded),
-            //   title: Text('Add Products'),
-            //   onTap: () => print("Add new Products"),
-            // ),
 
             ListTile(
               // leading: Icon(Icons.signout),
