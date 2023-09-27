@@ -31,18 +31,18 @@ class _SplashScreenState extends State<SplashScreen> {
             children: [
               Center(
                 child: CircleAvatar(
-                  backgroundImage: AssetImage("Assets/openmart.png"),
+                  backgroundImage: AssetImage("Assets/appstore.png"),
                   radius: 90,
                 ),
               ),
               SizedBox(height: 60,),
-              Text('WELLCOME TO EASY MART', style: TextStyle(fontSize:25, fontWeight: FontWeight.bold, color: Colors.pinkAccent),),
+              Text('WELLCOME TO HEALTHY FOOD', style: TextStyle(fontSize:23,fontFamily: "Skranji", fontWeight: FontWeight.bold, color: Colors.pinkAccent),),
               SizedBox(height: 60,),
               Center(
               child: LoadingAnimationWidget.twistingDots(
               leftDotColor: const Color(0xFF1A1A3F),
               rightDotColor: const Color(0xFFEA3799),
-              size: 100,
+              size: 80,
               ),
               )
             ],

@@ -1,4 +1,3 @@
-import 'package:ecom_project/Screen/login.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -23,7 +22,10 @@ class _ForgetPState extends State<ForgetP> {
                 padding: EdgeInsets.only(left:96, top: 270 ),
                 //height: MediaQuery.of(context).size.height*0.7,
                 child: Text('Forget Password',
-                  style: TextStyle(color: Colors.lightGreen, fontSize: 25, fontWeight:FontWeight.w900,),)
+                  style: TextStyle(color: Colors.lightGreen,
+                    fontSize: 25,
+                    fontFamily: 'Arvo',
+                    fontWeight:FontWeight.w900,),)
             ),
             SingleChildScrollView(
               child: Container(
@@ -66,6 +68,7 @@ class _ForgetPState extends State<ForgetP> {
                           },
                             child: Text(
                             'Reset Password', style: TextStyle(
+                              fontFamily: 'Arvo',
                               fontSize: 20,
                               fontWeight: FontWeight.w400,
                               color: Colors.black
@@ -83,6 +86,7 @@ class _ForgetPState extends State<ForgetP> {
                           },
                               child: Text('Sign In',
                                 style: TextStyle(
+                                  fontFamily: 'Arvo',
                                   decoration: TextDecoration.underline,
                                   fontSize: 15,
                                   color: Colors.black,
@@ -91,6 +95,7 @@ class _ForgetPState extends State<ForgetP> {
                             Navigator.pushNamed(context, 'register');},
                               child: Text('Sign Up',
                                 style: TextStyle(
+                                  fontFamily: 'Arvo',
                                   decoration: TextDecoration.underline,
                                   fontSize: 15,
                                   color: Colors.black,

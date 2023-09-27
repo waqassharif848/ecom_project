@@ -1,5 +1,3 @@
-import 'package:ecom_project/Screen/forgetp.dart';
-import 'package:ecom_project/Screen/login.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -25,7 +23,10 @@ class _ForgetPasswordState extends State<ForgetPassword> {
                 padding: EdgeInsets.only(left:96, top: 270 ),
                 //height: MediaQuery.of(context).size.height*0.7,
                 child: Text('Forget Password',
-                  style: TextStyle(color: Colors.lightGreen, fontSize: 25, fontWeight:FontWeight.w900,),)
+                  style: TextStyle(color: Colors.lightGreen,
+                    fontFamily: 'Arvo',
+                    fontSize: 25, fontWeight:FontWeight.w900
+                  ),)
             ),
             SingleChildScrollView(
               child: Container(
@@ -55,7 +56,8 @@ class _ForgetPasswordState extends State<ForgetPassword> {
                             Navigator.pushNamed(context,'forgetp');
                           },
                            child: Text(
-                            'Forget', style: TextStyle(
+                            'Forget Password', style: TextStyle(
+                              fontFamily: 'Arvo',
                               fontSize: 20,
                               fontWeight: FontWeight.w400,
                               color: Colors.black
@@ -73,6 +75,7 @@ class _ForgetPasswordState extends State<ForgetPassword> {
                           },
                               child: Text('Sign In',
                                 style: TextStyle(
+                                  fontFamily: 'Arvo',
                                   decoration: TextDecoration.underline,
                                   fontSize: 15,
                                   color: Colors.black,
@@ -81,6 +84,7 @@ class _ForgetPasswordState extends State<ForgetPassword> {
                             Navigator.pushNamed(context, 'register');},
                               child: Text('Sign Up',
                                 style: TextStyle(
+                                  fontFamily: 'Arvo',
                                   decoration: TextDecoration.underline,
                                   fontSize: 15,
                                   color: Colors.black,

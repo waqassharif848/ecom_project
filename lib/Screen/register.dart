@@ -1,4 +1,3 @@
-import 'package:ecom_project/Screen/login.dart';
 import 'package:flutter/material.dart';
 
 class MyLogout extends StatefulWidget {
@@ -59,7 +58,10 @@ class _MyLogoutState extends State<MyLogout> {
                 padding: EdgeInsets.only(left:90, top: 180 ),
                 //height: MediaQuery.of(context).size.height*0.7,
                 child: Text('Create New Account',
-                  style: TextStyle(color: Colors.lightGreen, fontSize: 25, fontWeight:FontWeight.w900,),)
+                  style: TextStyle(color: Colors.lightGreen, fontSize: 25,
+                    fontWeight:FontWeight.w900,
+                    fontFamily: 'Arvo'
+                  ),)
             ),
             SingleChildScrollView(
               child: Container(
@@ -156,6 +158,7 @@ class _MyLogoutState extends State<MyLogout> {
                              },
                             child: Text(
                             'Sign Up', style: TextStyle(
+                              fontFamily: 'Arvo',
                               fontSize: 20,
                               fontWeight: FontWeight.w400,
                               color: Colors.black
@@ -175,19 +178,11 @@ class _MyLogoutState extends State<MyLogout> {
                           },
                               child: Text('Sign In',
                                 style: TextStyle(
+                                  fontFamily: 'Arvo',
                                   decoration: TextDecoration.underline,
                                   fontSize: 15,
                                   color: Colors.black,
                                 ),)),
-                          // TextButton(onPressed: () {
-                          //   Navigator.pushNamed(context, 'forget');
-                          // },
-                          //     child: Text('Forget Passsword',
-                          //       style: TextStyle(
-                          //         decoration: TextDecoration.underline,
-                          //         fontSize: 15,
-                          //         color: Colors.black,
-                          //       ),))
                         ],
                       ),
                     ],

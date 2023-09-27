@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 
 class ItemsComp extends StatelessWidget {
   final String itemName;
-  final IconData ItemIcon;
-  const ItemsComp({super.key, required this.itemName,required this.ItemIcon});
+  final String imageIcon;
+  const ItemsComp({super.key, required this.itemName,required this.imageIcon});
 
   @override
   Widget build(BuildContext context) {
@@ -22,11 +22,16 @@ class ItemsComp extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
-            IconButton(onPressed: ()=> {}, icon: Icon(ItemIcon),
-              color: Colors.grey.shade500,
-              iconSize: 37,
+            Image.asset(
+              imageIcon ,
+              fit: BoxFit.contain,
+              width: 50,
+              height: 50,
             ),
-            Text(itemName, style: TextStyle(fontSize:15, fontWeight: FontWeight.w900, color:Colors.grey.shade500, ),)
+            SizedBox(
+              height: 10,
+            ),
+             Text(itemName, style: TextStyle(fontSize:15, fontWeight: FontWeight.w900, color:Colors.black54, fontFamily:"Skranji" ),)
           ],
         ),
 

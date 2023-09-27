@@ -36,6 +36,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   loading_animation_widget: ^1.2.0+4
+  badges: ^3.1.2
 
 dev_dependencies:
   flutter_test:
@@ -66,10 +67,25 @@ flutter:
    - Assets/abc.jpg
    - Assets/abcd.jpg
    - Assets/abcde.jpg
-   - Assets/openmart.png
+   - Assets/appstore.png
    - Assets/aab.PNG
    - Assets/1.png
    - Assets/2.png
+   - Assets/burger.png
+   - Assets/burrito.png
+   - Assets/chicken.png
+   - Assets/chips.png
+   - Assets/coldrink.png
+   - Assets/deals.png
+   - Assets/hotdog.png
+   - Assets/hotwings.png
+   - Assets/nuggets.png
+   - Assets/pasta.png
+   - Assets/pizza.png
+   - Assets/sandwich.png
+   - Assets/spaguetti.png
+   - Assets/springroll.png
+   - Assets/taco.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -82,15 +98,18 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+  fonts:
+     - family: DelaGothicOne
+       fonts:
+         - asset: fonts/DelaGothicOne-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
+#           style: Regular
+     - family: Skranji
+       fonts:
+         - asset: fonts/Skranji-Regular.ttf
+     - family: Arvo
+       fonts:
+         - asset: fonts/Arvo-Bold.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #

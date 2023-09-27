@@ -1,5 +1,3 @@
-import 'package:ecom_project/Screen/home.dart';
-import 'package:ecom_project/Screen/register.dart';
 import 'package:flutter/material.dart';
 
 class MyLogin extends StatefulWidget {
@@ -23,7 +21,10 @@ class _MyLoginState extends State<MyLogin> {
             Container(
               padding: EdgeInsets.only(left:109, top: 290 ),
                 child: Text('Welcome Back',
-                style: TextStyle(color: Colors.lightGreen, fontSize: 25, fontWeight:FontWeight.w900,),)
+                  style: TextStyle(color: Colors.lightGreen,
+                  fontSize: 25, fontWeight:FontWeight.w900,
+                  fontFamily: 'Arvo',
+                ),)
             ),
             SingleChildScrollView(
               child: Container(
@@ -66,9 +67,10 @@ class _MyLoginState extends State<MyLogin> {
                         },
                           child: Text(
                           'Sign In', style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.w400,
-                            color: Colors.black
+                              fontFamily: 'Arvo',
+                              fontSize: 20,
+                              fontWeight: FontWeight.w400,
+                              color: Colors.black
                         ),),),
                       ],
                     ),
@@ -85,6 +87,7 @@ class _MyLoginState extends State<MyLogin> {
                         },
                             child: Text('Sign Up',
                             style: TextStyle(
+                              fontFamily: 'Arvo',
                               decoration: TextDecoration.underline,
                               fontSize: 15,
                               color: Colors.black,
@@ -96,6 +99,7 @@ class _MyLoginState extends State<MyLogin> {
                     },
                         child: Text('Forget Passsword',
                           style: TextStyle(
+                            fontFamily: 'Arvo',
                             decoration: TextDecoration.underline,
                             fontSize: 15,
                             color: Colors.black,

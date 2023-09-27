@@ -10,8 +10,8 @@ class NavBar extends StatelessWidget {
         padding: EdgeInsets.zero,
           children: [
           UserAccountsDrawerHeader(
-              accountName: Text('Capricorn7860'),
-              accountEmail: Text('waqassharif0302@gmail.com'),
+              accountName: Text('Capricorn7860', style: TextStyle(fontFamily: "Arvo")),
+              accountEmail: Text('waqassharif0302@gmail.com', style: TextStyle(fontFamily: "Arvo")),
               currentAccountPicture: CircleAvatar(
               child: ClipOval(child: Image.asset('Assets/ab.jpg'),),
           ),
@@ -22,31 +22,31 @@ class NavBar extends StatelessWidget {
           ),
             ListTile(
               leading: Icon(Icons.settings),
-              title: Text('Account Setting'),
+              title: Text('Account Setting', style: TextStyle(fontFamily: "Arvo")),
               onTap: () => print("Setting Your Profile"),
             ),
 
             ListTile(
               leading: Icon(Icons.location_on_outlined),
-              title: Text('Manage Address'),
+              title: Text('Manage Address', style: TextStyle(fontFamily: "Arvo")),
               onTap: () => print("Setting Your Profile"),
             ),
 
             ListTile(
               leading: Icon(Icons.add_location_alt_outlined),
-              title: Text('My Order'),
+              title: Text('My Order', style: TextStyle(fontFamily: "Arvo")),
               onTap: () => print("Check Your Payment Method"),
             ),
 
             ListTile(
               leading: Icon(Icons.favorite_border),
-              title: Text('My Favorite'),
+              title: Text('My Favorite', style: TextStyle(fontFamily: "Arvo")),
               onTap: () => print("Check Favorite"),
             ),
 
             ListTile(
               leading: Icon(Icons.history_edu),
-              title: Text('Order History'),
+              title: Text('Order History', style: TextStyle(fontFamily: "Arvo"),),
               onTap: () => print("Your Previous Order History"),
             ),
 
@@ -56,7 +56,7 @@ class NavBar extends StatelessWidget {
                   onPressed: () {
                   Navigator.pushNamed(context,'login');
                     },
-                child: Text('Signout', style: TextStyle(fontWeight: FontWeight.bold),),
+                child: Text('Signout Account', style: TextStyle(fontWeight: FontWeight.bold,fontFamily: "Arvo"),),
               ),),
 
         ],
