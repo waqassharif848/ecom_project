@@ -1,5 +1,5 @@
-import 'package:ecom_project/ItemsContainer/item_components.dart';
-import 'package:ecom_project/ProductList/burgerlist.dart';
+import 'package:food_project/ItemsContainer/item_components.dart';
+import 'package:food_project/ProductList/burgerlist.dart';
 import 'package:flutter/material.dart';
 
 class Items extends StatelessWidget {

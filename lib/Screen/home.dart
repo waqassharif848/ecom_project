@@ -1,5 +1,5 @@
-import 'package:ecom_project/Action/NavBar.dart';
-import 'package:ecom_project/ItemsContainer/items.dart';
+import 'package:food_project/Action/NavBar.dart';
+import "package:food_project/ItemsContainer/items.dart";
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -14,7 +14,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Healthy Food', style: TextStyle(fontWeight: FontWeight.bold, fontFamily: "Skranji"),),
+        title: Text('PIZZA GURU', style: TextStyle(fontWeight: FontWeight.bold, fontFamily: "Skranji"),),
         actions: [
           IconButton(onPressed: ()=> {} , icon: Icon(Icons.add_shopping_cart)),
           IconButton(onPressed: ()=> {}, icon: Icon(Icons.more_vert))
