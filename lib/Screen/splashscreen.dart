@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:ecom_project/Screen/login.dart';
+import 'package:food_project/Screen/login.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
@@ -36,7 +36,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 ),
               ),
               SizedBox(height: 60,),
-              Text('WELLCOME TO HEALTHY FOOD', style: TextStyle(fontSize:23,fontFamily: "Skranji", fontWeight: FontWeight.bold, color: Colors.pinkAccent),),
+              Text('WELLCOME TO PIZZA GURU', style: TextStyle(fontSize:23,fontFamily: "Skranji", fontWeight: FontWeight.bold, color: Colors.pinkAccent),),
               SizedBox(height: 60,),
               Center(
               child: LoadingAnimationWidget.twistingDots(

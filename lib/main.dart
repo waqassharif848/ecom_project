@@ -1,11 +1,10 @@
-import 'package:ecom_project/Screen/forget.dart';
-import 'package:ecom_project/Screen/forgetp.dart';
-import 'package:ecom_project/Screen/home.dart';
-import 'package:ecom_project/Screen/login.dart';
-import 'package:ecom_project/Screen/register.dart';
-import 'package:ecom_project/Screen/splashscreen.dart';
+import 'package:food_project/Screen/forget.dart';
+import 'package:food_project/Screen/forgetp.dart';
+import 'package:food_project/Screen/home.dart';
+import 'package:food_project/Screen/login.dart';
+import 'package:food_project/Screen/register.dart';
+import 'package:food_project/Screen/splashscreen.dart';
 import 'package:flutter/material.dart';
-
 
 void main() {
 
